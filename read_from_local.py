@@ -4,7 +4,7 @@ import matplotlib as mpl
 from matplotlib import pyplot as plt
 from matplotlib.patches import Rectangle
 
-os.chdir("TACO-data/")
+os.chdir("TACO-data/") # https://github.com/pedropro/TACO download the batch files
 
 def read_json(file_path: str) -> dict:
     with open(file_path, "r") as json_file:
